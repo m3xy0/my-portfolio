@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow: visible;
+    --yazi: white;
+    --yazi-hover: 
+}
+
+body {
+    height: 250vh;
+    /*background-color: #163f58;*/
+    /*background: linear-gradient(90deg, rgba(2,0,36,1) 25%, rgba(22,63,88,1) 50%, rgba(0,212,255,1) 83%);*/
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 10%, rgba(22,63,88,1) 50%, rgba(0,212,255,1) 83%);
+    font-family: 'Helvetica', sans-serif;
+    letter-spacing: 0.10rem;
+    border: 2px solid var(--yazi);
+    margin: 2%;
+    padding: 5px;
+}
+
+/*main {
+    border: 2px solid var(--yazi);
+    margin: 5%;
+    padding: 5px;
+}*/
+
+
+#me {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    color: var(--yazi);
+    /*line-height: 2;*/
+}
+
+#description {
+    font-size: 0.75rem;
+    font-style: oblique;
+    text-align: left;
+}
+
+#abstract {
+    position: absolute;
+    right: 5%;
+    bottom: -5%;
+    width: 15%;
+    color:var(--yazi);
+}
+
+#projects-section {
+    position: absolute;
+    bottom: -25%;
+    left: 5%;
+    color:var(--yazi);
+}
+
+#contacts {
+    margin-top: 10px;
+    position: relative;
+}
+
+#name {
+    font-size: 3rem;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 500;
+}
+
+/*.first {
+    font-size: 4rem;
+    font-family: 'Playfair', serif;
+    padding-right: 5px;
+    
+} */
+
+#nav {
+    margin-top: 10%;
+    
+}
+
+#nav ul li {
+    display: block;
+    line-height: 2.5;
+    padding: 5px 10px 5px 0px;
+    color: var(--yazi);
+    overflow: hidden;
+    opacity: 50%;
+    transition-duration: 0.5s;
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav ul li:hover {
+    opacity: 100%;
+}
+
+.logos {
+    width: 30px;
+    height: 30px;
+    margin-right: 5%;
+    margin-top: 10%;
+    opacity: 50%;
+    transition-duration: 0.5s;
+    
+}
+
+.logos:hover {
+    opacity: 100%;
+}
+
+
+#flex-container {
+    display: flex;
+    /*width: 100%;*/
+    margin-top: 3%;
+}
+
+.projects {
+    width: 30%;
+    margin-right: 2%;
+}
+
+.projects:last-of-type {
+    margin-right: 0;
+}
+
+.samples {
+    width: 100%;
+
+} 
+
+#projects-section {
+    width: 95%;
+    position: absolute;
+    top: 110%;
+    left: 5%;
+    overflow: visible;
+}
+
+/*#paragraf {
+    transform:matrix(1.00,0.00,0.00,2.00,1,50);
+-ms-transform:matrix(1.00,0.00,0.00,2.00,1,50);
+-webkit-transform:matrix(1.00,0.00,0.00,2.00,1,50);
+} */
+
